@@ -1,0 +1,13 @@
+#welcome-section {
+  display: flex;
+  max-width: 100%;
+  height: 300px;
+  background-image: linear-gradient(-90deg, #29b3b3, #80dfdf);
+}
+
+.welcome-header {
+  display: flex;
+  align-content: center;
+  font-size: 70px;
+  align-items: center;
+}
