@@ -99,6 +99,10 @@ p {
   display: block;
   text-decoration: none;
   padding: 8px;
+  transition: opacity 0.2s;
+}
+.project-tile:hover {
+  opacity: 0.75;
 }
 
 .project-tile p {
@@ -109,7 +113,10 @@ p {
 .project-tile img {
   display: block;
   width: 90%;
+  height: 160px;
   margin: 0 auto 8px;
+  border: 2px solid white;
+  object-fit: cover;
 }
 
 #contact {
@@ -120,19 +127,22 @@ p {
 
 .social-link {
   color: #ffff;
+  font-family: 'Raleway';
   padding: 8px;
   text-decoration: none;
   transition: opacity 0.2s;
+  display: inline-flex;
+  align-items: center;
 }
 
 .social-link:hover {
   opacity: 0.75;
 }
 
-#contact a,
-i {
+#contact a i {
   display: inline-block;
-  padding-right: 2px;
+  padding-right: 8px;
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
