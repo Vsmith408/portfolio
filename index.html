@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Victoria Smith</title>
   </head>
+
   <body>
     <nav id="navbar">
       <a class="nav-link" href="#about"> About</a>
@@ -17,34 +22,92 @@
       <h1 class="welcome-header">
         Victoria Smith
       </h1>
+      <p>Front-End Developer</p>
     </section>
-
-    <section id="projects"></section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Currently based in Charlotte, North Carolina.
-        </p>
+      <h2 class="about-header">About Me</h2>
+      <p>
+        I am currently pursuing a frontend and UI education online. I'd love to
+        talk with anyone in the field that might have some great resources or
+        tips for me!
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2 class="project-header">Portfolio</h2>
+      <div class="project-grid">
+        <a class="project-tile" href="/">
+          <img src="https://via.placeholder.com/600x300.png" alt="Portfolio" />
+          <h4>Portfolio</h4>
+          <p>Built with HTML and CSS</p>
+        </a>
+        <a class="project-tile" href="#project-1">
+          <img
+            src="https://via.placeholder.com/600x300.png"
+            alt="Tribute Page"
+          />
+          <h4>Tribute Page</h4>
+          <p>Built with HTML and CSS</p>
+        </a>
+        <a class="project-tile" href="#project-2">
+          <img
+            src="https://via.placeholder.com/600x300.png"
+            alt="Technical Doc"
+          />
+          <h4>Technical Documentation</h4>
+          <p>Built with HTML and CSS</p>
+        </a>
+        <a class="project-tile" href="#project-3">
+          <img
+            src="https://via.placeholder.com/600x300.png"
+            alt="Landing Page"
+          />
+          <h4>Landing Page</h4>
+          <p>Built with HTML and CSS</p>
+        </a>
+        <a class="project-tile" href="#project-4">
+          <img
+            src="https://via.placeholder.com/600x300.png"
+            alt="Survey Form"
+          />
+          <h4>Survey Form</h4>
+          <p>Built with HTML and CSS</p>
+        </a>
+      </div>
     </section>
     <section id="contact">
-      <i class="fas fa-envelope"></i>
-      <a href="mailto:victoriasmithh428@gmail.com?" target="_blank">Email</a>
-
-      <i class="fab fa-instagram"></i>
       <a
-        rel="stylesheet"
+        id="profile-link"
+        class="social-link"
+        href="https://github.com/Vsmith408"
+        target="_blank"
+      >
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <a
+        class="social-link"
+        href="mailto:victoriasmithh428@gmail.com?"
+        target="_blank"
+      >
+        <i class="fas fa-envelope"></i> Email
+      </a>
+
+      <a
+        class="social-link"
         href="https://www.instagram.com/victoriasmithhh/"
         target="_blank"
-        >Instagram</a
       >
-      <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+
       <a
-        rel="stylesheet"
+        class="social-link"
         href="https://twitter.com/Victoriaa08"
         target="_blank"
       >
-        </i>Twitter
+        <i class="fab fa-twitter"></i> Twitter
       </a>
     </section>
     <script
